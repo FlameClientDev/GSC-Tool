@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GSC Tool - GitHub Repository Viewer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>GSC Tool - GitHub Repository Viewer</h2>
+        <form id="repoForm" class="form">
+            <div class="form-group">
+                <label for="username">GitHub Username:</label>
+                <input type="text" id="username" name="username" class="input-field" required>
+            </div>
+            <div class="form-group">
+                <label for="repo">Repository Name:</label>
+                <input type="text" id="repo" name="repo" class="input-field" required>
+            </div>
+            <button type="submit" class="btn">Get Repository Info</button>
+            <div id="loading" class="loading">Loading...</div>
+        </form>
+        <div id="repo-info" class="repo-info"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
