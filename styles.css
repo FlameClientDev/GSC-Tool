@@ -1,0 +1,123 @@
+/* General styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    margin: 0;
+    background-color: #f5f5f5; /* Light gray background */
+}
+
+.container {
+    max-width: 800px; /* Increased max-width for better content layout */
+    margin: 20px auto; /* Added some margin from all sides */
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slightly raised box-shadow */
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #c62828; /* Deep red flame color for heading */
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 20px; /* Increased margin between form groups */
+}
+
+.label {
+    font-weight: bold;
+    color: #666; /* Dark gray label text */
+}
+
+.input-field {
+    padding: 12px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.input-field:focus {
+    border-color: #c62828; /* Red border color on focus */
+}
+
+.btn {
+    padding: 12px 24px;
+    background-color: #c62828; /* Deep red flame color for button */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ff7043; /* Lighter shade on hover */
+}
+
+.repo-info {
+    margin-top: 30px;
+}
+
+.repo-details {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.repo-name {
+    font-size: 28px;
+    font-weight: bold;
+    color: #c62828; /* Deep red flame color for repo name */
+    margin-bottom: 15px;
+}
+
+.repo-description {
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.repo-meta {
+    display: flex;
+    flex-wrap: wrap; /* Allow meta items to wrap */
+    margin-bottom: 15px;
+}
+
+.repo-meta-item {
+    margin-right: 20px;
+    color: #888;
+}
+
+.repo-url {
+    margin-top: 15px;
+}
+
+.repo-url a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.repo-url a:hover {
+    text-decoration: underline;
+}
+
+/* Improved background style */
+body {
+    background-color: #f5f5f5; /* Light gray background */
+    background-image: linear-gradient(to bottom right, #ff7043, #ffd54f); /* Gradient from deep red to gold */
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Fixed background position */
+    background-size: cover; /* Cover entire viewport */
+}
